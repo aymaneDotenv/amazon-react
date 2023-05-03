@@ -10,13 +10,16 @@ import ProductSection from "./components/ProductSection"
 function App() {
   return (
     <div>
-      <Banner />
-      <IconBar />
-      <Main />
-      <Menu />
       <Navbar />
-      <Products />
+      <main className="main">
+      <Menu />
       <ProductSection />
+      </main>
+      {/* <Banner />
+      <IconBar />
+  
+      <Products />
+      */}
     </div>
   );
 }
